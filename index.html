@@ -11,7 +11,7 @@
     <div id="app">
         <v-app>
             <v-content>
-                <v-container>
+                <v-flex>
                     <v-stepper v-model="step" vertical>
                         <v-stepper-header>
                             <v-stepper-step step="1" :complete="step > 1">Your Information</v-stepper-step>
@@ -49,7 +49,7 @@
                             </v-stepper-content>
                         </v-stepper-items>
                     </v-stepper>
-                </v-container>
+                </v-flex>
             </v-content>
         </v-app>
     </div>
